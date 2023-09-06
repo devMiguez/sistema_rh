@@ -12,6 +12,7 @@ public abstract class Pessoa {
         this.endereco = endereco;
     }
 
+    //Getters and Setters
     public String getNome() {
         return nome;
     }

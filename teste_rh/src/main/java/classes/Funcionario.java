@@ -8,6 +8,7 @@ public abstract class Funcionario extends Pessoa {
     //Constructor
     public Funcionario(String nome, int cpf, Endereco endereco) {
         super(nome, cpf, endereco);
+        this.cargo = cargo;
     }
 
 
