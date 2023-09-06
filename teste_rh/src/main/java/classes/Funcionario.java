@@ -1,24 +1,14 @@
 package classes;
 
-import enums.Cargo;
-
-public abstract class Funcionario extends Pessoa {
-    private Cargo cargo;
+public abstract class Funcionario extends Pessoa{
 
     //Constructor
     public Funcionario(String nome, int cpf, Endereco endereco) {
         super(nome, cpf, endereco);
-        this.cargo = cargo;
     }
 
 
     //Getters and Setters
-    public Cargo getCargo() {
-        return cargo;
-    }
-
-    public void setCargo(Cargo cargo) {
-        this.cargo = cargo;
-    }
     
+
 }
