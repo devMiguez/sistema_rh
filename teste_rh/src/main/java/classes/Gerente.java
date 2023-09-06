@@ -3,6 +3,7 @@ package classes;
 import interfaces.Atributos;
 
 public class Gerente extends Funcionario implements Atributos {
+    private double gerente;
     private Atributos atributos;
 
     //Constructor
@@ -12,6 +13,14 @@ public class Gerente extends Funcionario implements Atributos {
     }
 
     //Getters and Setters
+    public double getGerente() {
+        return gerente;
+    }
+
+    public void setGerente(double gerente) {
+        this.gerente = gerente;
+    }
+
     public Atributos getAtributos() {
         return atributos;
     }
